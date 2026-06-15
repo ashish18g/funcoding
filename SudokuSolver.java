@@ -10,7 +10,7 @@ public class SudokuSolver {
 
     private record NumberCords(byte x, byte y, byte box_x, byte box_y) {}
 
-    private byte[][] sudoku_board;
+    private byte[][] sudoku_board = new byte[rows][columns];
     // 9x9 board
 
     public SudokuSolver(byte[][] sudoku_board) {
