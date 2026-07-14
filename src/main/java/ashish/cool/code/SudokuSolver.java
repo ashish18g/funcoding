@@ -1,3 +1,5 @@
+package ashish.cool.code;
+
 import java.util.Arrays;
 
 public class SudokuSolver {
